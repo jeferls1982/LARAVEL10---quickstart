@@ -1,0 +1,28 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Nome da Sua API",
+        "description": "Descrição da sua API",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/exemplo": {
+            "get": {
+                "tags": [
+                    "Exemplo"
+                ],
+                "summary": "Obter exemplo",
+                "description": "Obtém um exemplo.",
+                "operationId": "getExemplo",
+                "responses": {
+                    "200": {
+                        "description": "Exemplo obtido com sucesso"
+                    },
+                    "404": {
+                        "description": "Exemplo não encontrado"
+                    }
+                }
+            }
+        }
+    }
+}

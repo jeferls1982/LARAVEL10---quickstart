@@ -19,4 +19,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::apiResource('/teste',TesteController::class);
+Route::get('/teste',[TesteController::class, 'index']);
